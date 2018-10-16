@@ -30,21 +30,21 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
+            this.ZoomPanROIPictureBox_OriginalImage = new LibUtility.ZoomPanROIPictureBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
-            this.ZoomPanROIPictureBox_OriginalImage = new LibUtility.ZoomPanROIPictureBox();
-            this.ZoomPanROIPictureBox_ProcessedImage = new LibUtility.ZoomPanROIPictureBox();
             this.ZoomPanROIPictureBox_TempleteImage = new LibUtility.ZoomPanROIPictureBox();
+            this.ZoomPanROIPictureBox_ProcessedImage = new LibUtility.ZoomPanROIPictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_OriginalImage)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_OriginalImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_ProcessedImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_TempleteImage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_ProcessedImage)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -79,6 +79,26 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(571, 282);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(565, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Original Image :";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ZoomPanROIPictureBox_OriginalImage
+            // 
+            this.ZoomPanROIPictureBox_OriginalImage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ZoomPanROIPictureBox_OriginalImage.Location = new System.Drawing.Point(3, 18);
+            this.ZoomPanROIPictureBox_OriginalImage.Name = "ZoomPanROIPictureBox_OriginalImage";
+            this.ZoomPanROIPictureBox_OriginalImage.Size = new System.Drawing.Size(565, 261);
+            this.ZoomPanROIPictureBox_OriginalImage.TabIndex = 1;
+            this.ZoomPanROIPictureBox_OriginalImage.TabStop = false;
+            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 1;
@@ -93,17 +113,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 95.03546F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(572, 282);
             this.tableLayoutPanel3.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(565, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Original Image :";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -141,14 +150,14 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Templete Image:";
             // 
-            // ZoomPanROIPictureBox_OriginalImage
+            // ZoomPanROIPictureBox_TempleteImage
             // 
-            this.ZoomPanROIPictureBox_OriginalImage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ZoomPanROIPictureBox_OriginalImage.Location = new System.Drawing.Point(3, 18);
-            this.ZoomPanROIPictureBox_OriginalImage.Name = "ZoomPanROIPictureBox_OriginalImage";
-            this.ZoomPanROIPictureBox_OriginalImage.Size = new System.Drawing.Size(565, 261);
-            this.ZoomPanROIPictureBox_OriginalImage.TabIndex = 1;
-            this.ZoomPanROIPictureBox_OriginalImage.TabStop = false;
+            this.ZoomPanROIPictureBox_TempleteImage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ZoomPanROIPictureBox_TempleteImage.Location = new System.Drawing.Point(3, 144);
+            this.ZoomPanROIPictureBox_TempleteImage.Name = "ZoomPanROIPictureBox_TempleteImage";
+            this.ZoomPanROIPictureBox_TempleteImage.Size = new System.Drawing.Size(279, 135);
+            this.ZoomPanROIPictureBox_TempleteImage.TabIndex = 3;
+            this.ZoomPanROIPictureBox_TempleteImage.TabStop = false;
             // 
             // ZoomPanROIPictureBox_ProcessedImage
             // 
@@ -158,15 +167,6 @@
             this.ZoomPanROIPictureBox_ProcessedImage.Size = new System.Drawing.Size(566, 262);
             this.ZoomPanROIPictureBox_ProcessedImage.TabIndex = 2;
             this.ZoomPanROIPictureBox_ProcessedImage.TabStop = false;
-            // 
-            // ZoomPanROIPictureBox_TempleteImage
-            // 
-            this.ZoomPanROIPictureBox_TempleteImage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ZoomPanROIPictureBox_TempleteImage.Location = new System.Drawing.Point(3, 144);
-            this.ZoomPanROIPictureBox_TempleteImage.Name = "ZoomPanROIPictureBox_TempleteImage";
-            this.ZoomPanROIPictureBox_TempleteImage.Size = new System.Drawing.Size(279, 135);
-            this.ZoomPanROIPictureBox_TempleteImage.TabIndex = 3;
-            this.ZoomPanROIPictureBox_TempleteImage.TabStop = false;
             // 
             // Form1
             // 
@@ -179,13 +179,13 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_OriginalImage)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_OriginalImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_ProcessedImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_TempleteImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ZoomPanROIPictureBox_ProcessedImage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -200,8 +200,8 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label label3;
         private LibUtility.ZoomPanROIPictureBox ZoomPanROIPictureBox_OriginalImage;
-        private LibUtility.ZoomPanROIPictureBox ZoomPanROIPictureBox_ProcessedImage;
         private LibUtility.ZoomPanROIPictureBox ZoomPanROIPictureBox_TempleteImage;
+        private LibUtility.ZoomPanROIPictureBox ZoomPanROIPictureBox_ProcessedImage;
     }
 }
 
