@@ -14,7 +14,7 @@ namespace TempleteMatchingTest
     public partial class Form1 : Form
     {
         Timer m_Timer = new Timer();
-        Emgu.CV.Image<Emgu.CV.Structure.Bgr, byte> m_Image = new Emgu.CV.Image<Emgu.CV.Structure.Bgr, byte>(@"C:\Users\kchang\Desktop\temp.bmp");
+        Emgu.CV.Image<Emgu.CV.Structure.Bgr, byte> m_Image = new Emgu.CV.Image<Emgu.CV.Structure.Bgr, byte>(@"C:\Users\kchang\Desktop\temp.jpg");
         public Form1()
         {
             InitializeComponent();

@@ -26,3 +26,9 @@ C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchi
 C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchingTest\obj\Debug\TempleteMatchingTest.csproj.CopyComplete
 C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchingTest\obj\Debug\TempleteMatchingTest.exe
 C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchingTest\obj\Debug\TempleteMatchingTest.pdb
+C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchingTest\bin\Debug\Emgu.CV.UI.pdb
+C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchingTest\bin\Debug\Emgu.CV.World.pdb
+C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchingTest\bin\Debug\zh-CN\Emgu.CV.UI.resources.dll
+C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchingTest\bin\Debug\ZoomPanROIPictureBox.resx
+C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchingTest\bin\Debug\ZoomPanROIPictureBox.cs
+C:\Users\kchang\Desktop\Code\C_Sharp\WinForm\TempleteMatchingTest\TempleteMatchingTest\bin\Debug\ZoomPanROIPictureBox.Designer.cs
